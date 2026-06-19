@@ -8,10 +8,12 @@ h1 {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  width: 65%;
 }
 
 h2 {
   font-size: 30px;
+  width: 35%;
 }
 
 .established {
@@ -31,13 +33,16 @@ p {
   margin-right: auto;
   padding: 20px;
   max-width: 500px;
+  border-style: double;
+  border-color: black;
+  border-radius: 10px;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -25px;
+  margin-top: -20px;
 }
 
 hr {
@@ -53,6 +58,12 @@ hr {
 h1,
 h2 {
   font-family: Impact, serif;
+  background-color: blanchedalmond;
+  border-color: brown;
+  border-radius: 50px;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item p {
